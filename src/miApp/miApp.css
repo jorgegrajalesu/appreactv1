@@ -1,0 +1,38 @@
+.miApp {
+  text-align: center;
+}
+
+.miApp-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .miApp-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.miApp-header {
+  background-color: #080808;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.miApp-link {
+  color: #8b3f15;
+}
+
+@keyframes miApp-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
